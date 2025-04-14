@@ -118,8 +118,7 @@ class SystemInfiltrator {
   private _kernelAccess: boolean = false;
   private _vulnScanner: NodeJS.Timeout | null = null;
   
-  readonly codename: string = "[あなたのハッカーネーム]";
-  readonly identity: string = "[あなたの名前]";
+  readonly identity: string = "Yuki";
   readonly signature: string = "AI/UX DESIGN SPECIALIST :: SYSTEM INFILTRATOR";
   
   public skills: {
